@@ -1,53 +1,78 @@
 <!DOCTYPE html>
-<html >
-<head>
-    <meta charset="UTF-8">
-    <title>Waves Admin</title>
-    
-    <link rel="stylesheet" href="css/style.css">
+<html>
 
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Waves Admin</title>
+
+    <link rel="stylesheet" href="assets/demo.css">
+    <link rel="stylesheet" href="assets/form-mini.css">
 
 </head>
+<!-- You only need this form and the form-mini.css -->
 
-<body>
-    <div class="container">
-        <form id="contact" action="" method="post">
-            <h3>Agregar playa a Waves</h3>
-            <h4>Informacion general de la playa</h4>
-            <fieldset>
-                <input placeholder="Nombre de Playa" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Ciudad" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Departamento" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Pais" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <h4>Coordenadas de Ubicacion</h4>
-            <fieldset>
-                <input placeholder="Longitud" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Latitud" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <h4>Imagen</h4>
-            <fieldset>
-                <input placeholder="URL de imagen de la playa" type="url" tabindex="1" required autofocus>
-            </fieldset>
-            <h4>Descripcion</h4>
-            <fieldset>
-                <textarea placeholder="Breve Descripcion de la Playa" tabindex="5" required></textarea>
-            </fieldset>
-            <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Agregar Playa</button>
-            </fieldset>
-            <p class="copyright">Designed by <a href="https://pedronavhur.github.io" target="_blank" title="NavHur">NavHur</a></p>
-        </form>
-    </div>
+<div class="form-mini-container">
 
+
+    <form class="form-mini" method="post" action="#">
+
+        <h1>Waves Admin</h1>
+
+        <h4>Informacion general de la playa</h4>
+
+        <div class="form-row">
+            <input type="text" name="name" placeholder="Nombre de la Playa">
+        </div>
+
+        <div class="form-row">
+            <input type="text" name="name" placeholder="Ciudad">
+        </div>
+
+        <div class="form-row">
+            <input type="text" name="name" placeholder="Departamento">
+        </div>
+
+        <div class="form-row">
+            <input type="text" name="name" placeholder="Pais">
+        </div>
+
+        <h4>Coordenadas de ubicacion</h4>
+
+        <div class="form-row">
+            <input type="number" name="name" placeholder="Longitud">
+        </div>
+
+        <div class="form-row">
+            <input type="number" name="name" placeholder="Latitud">
+        </div>
+
+        <h4>Imagen</h4>
+
+        <div class="form-row">
+            <input type="url" name="name" placeholder="URL de imagen de la playa">
+        </div>
+
+        <h4>Descripcion</h4>
+
+        <div class="form-row">
+            <textarea  placeholder="Breve Descripcion de la Playa"></textarea>
+        </div>
+
+
+        <div class="form-row form-last-row">
+            <button type="submit">Agregar Playa</button>
+        </div>
+
+    </form>
+</div>
+
+
+</div>
 
 </body>
+
 </html>
