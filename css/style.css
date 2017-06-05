@@ -106,7 +106,7 @@ fieldset {
     font-size: 4vh;
 }
 
-#contact button[type="submit"]:hover {
+#contact button[type="button"]:hover {
     background: #0288D1;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
